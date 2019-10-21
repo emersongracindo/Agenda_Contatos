@@ -1,0 +1,38 @@
+﻿
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nome</th>
+            <th>Email1</th>
+            <th>Email2</th>
+            <th>Fone1</th>
+            <th>Fone2</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @{
+            foreach (var item in (List<ClienteModel>)ViewBag.ListaClientes)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Nome</td>
+                    <td>@item.Email1</td>
+                    <td>@item.Email2</td>
+                    <td>@item.Fone1</td>
+                    <td>@item.Fone2</td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+<br />
+<button class="btn-block btn-primary" type="button" onclick="Cadastrar()">Novo Contato</button> 
+
+<script>
+    function Cadastrar()
+    {
+        window.location.href = "../Cliente/Cadastro";
+    }
+</script>

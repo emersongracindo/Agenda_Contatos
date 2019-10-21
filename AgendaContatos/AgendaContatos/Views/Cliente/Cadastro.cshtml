@@ -1,0 +1,36 @@
+﻿@model ClienteModel
+
+<h2>Novo Contato</h2>
+
+<br  />
+
+<form asp-controller="Cliente" asp-action="Cadastro">
+    <div class="form-group">
+        <label>Nome</label>
+        <input asp-for="Nome" type="text" class="form-control" />
+        <span asp-validation-for="Nome" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label>Email1</label>
+        <input asp-for="Email1" type="text" class="form-control" />
+        <span asp-validation-for="Email1" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label>Email2</label>
+        <input asp-for="Email2" type="text" class="form-control" />
+        <span asp-validation-for="Email2" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label>Fone1</label>
+        <input asp-for="Fone1" type="text" class="form-control" />
+        <span asp-validation-for="Fone1" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label>Fone2</label>
+        <input asp-for="Fone2" type="text" class="form-control" />
+        <span asp-validation-for="Fone2" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-block btn-success">Salvar</button>
+
+</form>

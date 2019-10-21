@@ -1,0 +1,10 @@
+select * from contatos;
+
+Insert Into contatos(nome, email1, email2, fone1, fone2)
+	values("Eduardo", "eduardo@gmail.com", "eduardo@ig.com.br", "013987425350", "011987453230");
+    
+Insert Into contatos(nome, email1, email2, fone1, fone2)
+	values("Gilberto", "gilberto@gmail.com", "giba@ig.com.br", "013987425350", "011987453230");
+    
+Insert Into contatos(nome, email1, email2, fone1, fone2)
+	values("Adriano", "adriano@gmail.com", "timao@ig.com.br", "013987564543", "011987453230");

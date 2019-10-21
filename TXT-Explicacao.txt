@@ -1,0 +1,5 @@
+Agenda de Contatos criada utilizando AspNetCore MVC - (Visual Studio 2017), Banco de Dados MySql e na interface com usuario bootstrap.
+
+Segue o script de criacao do BD agenda_contatos, e script de criação de inserçao de contatos na agenda.
+
+Segue pasta contendo o icone usado para acesso a lista de contatos da agenda.
